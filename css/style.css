@@ -1,0 +1,24 @@
+*{
+    font-family: Microsoft YaHei,\\5FAE\8F6F\96C5\9ED1,\5FAE\8F6F\96C5\9ED1,Tahoma,\\5B8B\4F53,helvetica,Hiragino Sans GB !important;
+}
+.step>p{
+    text-align: center;
+}
+.tips-control{
+    position: relative;
+    float: right;
+    font-size: 12px;
+    right: 20px;
+    top:180px;
+    animation: tips-kf 3s infinite linear;
+}
+@keyframes tips-kf {
+    0% {opacity: 0;}
+    65% {opacity: 1;}
+    100% {opacity: 0;}
+}
+
+.step{
+    width: 1000px;
+    opacity: .2;
+}
